@@ -142,7 +142,7 @@ class FeaturesGrid extends StatelessWidget {
                     if (onSelectPlanTab != null) {
                       onSelectPlanTab!.call();
                     } else {
-                      // Fallback to pushing a new page.
+                      // Fallback to pushing a new page
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (_) => TripPlannerPage(
